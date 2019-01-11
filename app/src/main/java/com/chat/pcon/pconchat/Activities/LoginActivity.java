@@ -82,9 +82,6 @@ public class LoginActivity extends AppCompatActivity {
                 //TODO 5: firebase authentication
                 //TODO 6: dialog show and dismiss
                 //TODO: check input errors
-                Intent intent = new Intent(LoginActivity.this,ChatActivity.class);
-                startActivity(intent);
-                finish();
             }
         });
     }
