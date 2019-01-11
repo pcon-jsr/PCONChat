@@ -21,7 +21,6 @@ public class LoginActivity extends AppCompatActivity {
     EditText email,password;
     Button cancel,submit;
     TextView register;
-    RelativeLayout rlayout;
     // TextInputLayout email_wrapper,pass_wrapper;
     // TextInputEditText email,password;
     //variables
@@ -58,12 +57,11 @@ public class LoginActivity extends AppCompatActivity {
         cancel = findViewById(R.id.login_cancel);
         submit = findViewById(R.id.login_submit);
         register = findViewById(R.id.login_register);
-        rlayout = findViewById(R.id.login_rel);
 //        email_wrapper = findViewById(R.id.register_email_wrapper);
 //        pass_wrapper = findViewById(R.id.register_pass_wrapper);
 
-        mAuth = FirebaseAuth.getInstance();
-        mFirestore = FirebaseFirestore.getInstance();
+//        mAuth = FirebaseAuth.getInstance();
+//        mFirestore = FirebaseFirestore.getInstance();
 
     }
 
